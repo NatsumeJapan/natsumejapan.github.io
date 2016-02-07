@@ -6,7 +6,7 @@
 @media (min-width: 1258px) and (max-width: 2000px) {
 	#hometitle {
 	position:relative;
-	top: 35px;
+	top: 0px;
 	}
 	
 		#homeleftimage {
@@ -46,7 +46,7 @@
 	
 		#hometitle {
 	position:relative;
-	top: 35px;
+	top: 0px;
 	}
 
 		#homeleftimage {
@@ -120,7 +120,7 @@
 	
 		#hometitle {
 	position:relative;
-	top: 35px;
+	top: 0px;
 	}
 	
 	#homeleftimage {
@@ -169,6 +169,54 @@
 }
 
 
+
+
+
+.whyone h3{
+	text-align:center;
+	color:black;
+	font-size:30px;
+}
+
+.whyone p{
+	text-align:center;
+	color:black;
+	max-width:100%;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+		font-size:24px;	
+
+}
+
+.whythree h3{
+	text-align:center;
+	color:black;
+		font-size:30px;
+
+
+}
+
+.whythree p{
+	text-align:center;
+	color:black;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+			font-size:24px;	
+
+}
+
+.profile-description {
+	text-align:center;
+	margin-bottom: 25px;
+	font-size:18px;	
+}
+.megadagashihidesmall{
+	display:none;
+}
 	
 	
 }
@@ -181,11 +229,11 @@
 	
 	#hometitle {
 	position:relative;
-	top: 40px;
+	top: 0px;
 	left:0px;
 	color:black;
-	margin: 0px 0 0 0px;
-	height: 100px;
+	margin: 0px 0px 20px 0px;
+	height: 50px;
 	z-index: 6;
 }
 #hometitle .slide-content {
@@ -362,6 +410,58 @@
 	.info-text {
 		padding-right: 0;	
 	}
+	
+	
+	
+	
+	
+.whyone h3{
+	text-align:center;
+	color:black;
+	font-size:30px;
+}
+
+.whyone p{
+	text-align:center;
+	color:black;
+	max-width:100%;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+		font-size:24px;	
+
+}
+
+.whythree h3{
+	text-align:center;
+	color:black;
+		font-size:30px;
+
+
+}
+
+.whythree p{
+	text-align:center;
+	color:black;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+			font-size:24px;	
+
+}
+
+.profile-description {
+	text-align:center;
+	margin-bottom: 25px;
+	font-size:22px;	
+}
+
+	
+	
+	
+	
 }
 
 @media (max-width: 480px) {
@@ -380,7 +480,9 @@
 
 	#hometitle {
 	position:relative;
-	top: 20px;
+	top: 0px;
+	height:60px;
+	margin-bottom:10px;
 	}
 	#hometitle .slide-content {
 	font-size: 30px;
@@ -570,6 +672,58 @@
 	.info-text {
 		padding-right: 0;	
 	}
+	
+	
+	
+	
+.whyone h3{
+	text-align:center;
+	color:black;
+	font-size:30px;
+}
+
+.whyone p{
+	text-align:center;
+	color:black;
+	max-width:100%;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+		font-size:24px;	
+
+}
+
+.whythree h3{
+	text-align:center;
+	color:black;
+		font-size:30px;
+
+
+}
+
+.whythree p{
+	text-align:center;
+	color:black;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+			font-size:24px;	
+
+}
+
+.profile-description {
+	text-align:center;
+	margin-bottom: 25px;
+	font-size:18px;	
+}
+.megadagashihidesmall{
+	display:none;
+}
+	
+	
+	
 }
 
 @media (max-width: 414px) {
@@ -581,12 +735,13 @@
 	
 		#hometitle {
 	position:relative;
-	top: 20px;
+	top: 0px;
 	left:0px;
 	color:black;
 	margin: 0px 0 0 0px;
-	height: 100px;
+	height: 70px;
 	z-index: 6;
+	margin-bottom:10px;
 }
 	
 	#hometitle .slide-content {
@@ -639,6 +794,10 @@
 	width:70%;
 	height:92%;
 	margin:0% 0% -10% 15%;
+}
+.iphonehometext{
+	font-size:26px;
+	
 }
 	
 }
@@ -715,6 +874,11 @@
 		padding-top: 90px;
 		padding-bottom: 120px;	
 	}
+	
+.iphonehometext{
+	font-size:18px;
+	line-height:20px;
+}
 }
 
 
