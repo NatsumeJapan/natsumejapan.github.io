@@ -802,6 +802,21 @@ nav#menu #menu-nav li a:hover {
    About Section
 ================================================== */
 
+
+#megapremium{
+	position:relative;
+	left:31%;
+}
+
+#japanpostimage{
+	width:100%;
+
+}
+.japanpostimageshell{
+	margin-top:-20px;
+	margin-bottom:40px;
+	
+}
 .profile-name {
 	margin-bottom: 15px;
 	color:black;	
