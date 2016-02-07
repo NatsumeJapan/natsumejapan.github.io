@@ -321,8 +321,13 @@ h3.spec {
 
 .facebooklike {
 	position:relative;
-	top:-90px;
+	top:-60px;
 	left:550px;
+}
+.facebooklikecontact {
+	position:relative;
+	top:-20px;
+	left:0px;
 }
 
 .homeholder{
