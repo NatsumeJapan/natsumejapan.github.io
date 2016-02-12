@@ -812,7 +812,17 @@
 @media (max-width: 320px) {
 	
 
-	
+	.facebooklike {
+	position:relative;
+	top:-60px;
+	left:350px;
+}
+.facebooklikecontact {
+	position:relative;
+	top:-20px;
+	left:-74px;
+	width:60%;
+}
 	
 	
 #megapremium{

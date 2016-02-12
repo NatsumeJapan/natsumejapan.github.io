@@ -329,6 +329,7 @@ h3.spec {
 	position:relative;
 	top:-20px;
 	left:70px;
+	width:80%;
 }
 .contactul{
 	position:relative;
@@ -1014,7 +1015,24 @@ nav#menu #menu-nav li a:hover {
 
 }
 
+.whyfour h3{
+	text-align:center;
+	color:black;
+		font-size:30px;
 
+
+}
+
+.whyfour p{
+	text-align:center;
+	color:black;
+	padding-top:0;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:0;
+			font-size:24px;	
+
+}
 
 .example img{
 	width:80%;
