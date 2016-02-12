@@ -44,7 +44,32 @@
 }
 @media (min-width: 900px) and (max-width: 1257px) {
 	
+	
+.facebooklike {
+	position:relative;
+	top:-60px;
+	left:510px;
+	width:300px;
+}	
+	
+	
 
+.facebooklikemobile{
+	position:absolute;
+	top:18px;
+	left:190px;
+	overflow:hidden;
+	
+}
+
+
+
+.facebooklikecontact {
+	position:relative;
+	top:-20px;
+	left:-74px;
+	width:60%;
+}
 	
 		#hometitle {
 	position:relative;
