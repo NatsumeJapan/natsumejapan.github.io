@@ -835,14 +835,16 @@
 }
 
 
-
-
-
-	.facebooklike {
+.facebooklikemobile{
 	position:relative;
-	top:-60px;
-	left:350px;
+	float:left;
+	top:-50px;
+	left:90px;
+	
 }
+
+
+
 .facebooklikecontact {
 	position:relative;
 	top:-20px;

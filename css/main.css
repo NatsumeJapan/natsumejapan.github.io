@@ -309,9 +309,9 @@ h3.spec {
 	background: white;
 	padding-top:20px;
 	margin-bottom:20px;
-	  -webkit-box-shadow: 0 10px 5px #888888;
-  -moz-box-shadow: 0 10px 5px #888888;
-  box-shadow: 0 10px 5px #888888;
+	  -webkit-box-shadow: 0 4px 5px #888888;
+  -moz-box-shadow: 0 4px 5px #888888;
+  box-shadow: 0 4px 5px #888888;
 }
 #hometitle .slide-content {
 	font-size: 50px;
@@ -597,6 +597,16 @@ nav#menu #menu-nav li a:hover {
 /* ==================================================
    Mobile Navigation
 ================================================== */
+
+
+
+.facebooklikemobile{
+	position:relative;
+	float:left;
+	
+}
+
+
 
 #mobile-nav {
 	display: none;	
