@@ -168,7 +168,7 @@
 .facebooklikecontact {
 	position:relative;
 	top:-20px;
-	left:-74px;
+	left:0px;
 	width:60%;
 }
 	
@@ -300,9 +300,8 @@
 
 .facebooklikemobile{
 	position:relative;
-	float:left;
 	top:-25px;
-	left:60px;
+	left:70px;
 	overflow:hidden;
 	
 }
@@ -312,8 +311,9 @@
 .facebooklikecontact {
 	position:relative;
 	top:-20px;
-	left:-74px;
+	left:-4px;
 	width:60%;
+	overflow:hidden;
 }
 	
 	

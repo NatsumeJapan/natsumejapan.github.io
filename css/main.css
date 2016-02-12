@@ -325,12 +325,14 @@ h3.spec {
 	top:-60px;
 	left:550px;
 	width:300px;
+	overflow:hidden;
 }
 .facebooklikecontact {
 	position:relative;
 	top:-20px;
 	left:70px;
 	width:60%;
+	overflow:hidden
 }
 .contactul{
 	position:relative;
