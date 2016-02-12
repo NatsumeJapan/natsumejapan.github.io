@@ -324,12 +324,13 @@ h3.spec {
 	position:relative;
 	top:-60px;
 	left:550px;
+	width:300px;
 }
 .facebooklikecontact {
 	position:relative;
 	top:-20px;
 	left:70px;
-	width:80%;
+	width:60%;
 }
 .contactul{
 	position:relative;
@@ -1013,6 +1014,11 @@ nav#menu #menu-nav li a:hover {
 	padding-bottom:0;
 			font-size:24px;	
 
+}
+
+.whyfour{
+	position:relative;
+	
 }
 
 .whyfour h3{

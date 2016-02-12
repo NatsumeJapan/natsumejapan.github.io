@@ -211,6 +211,16 @@
 
 }
 
+
+.whyfour{
+	position:relative;
+	display:inline-block;
+	
+}
+
+
+
+
 .profile-description {
 	text-align:center;
 	margin-bottom: 25px;
@@ -223,6 +233,12 @@
 	
 }
 @media (min-width: 481px) and (max-width: 767px) {
+	
+	
+
+
+	
+	
 	#megapremium{
 	position:relative;
 	left:0%;
@@ -811,6 +827,16 @@
 }
 @media (max-width: 320px) {
 	
+
+.whyfour{
+	position:relative;
+	display:inline-block;
+	
+}
+
+
+
+
 
 	.facebooklike {
 	position:relative;
