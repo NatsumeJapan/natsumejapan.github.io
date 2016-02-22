@@ -4,6 +4,15 @@
 
 
 @media (min-width: 1258px) and (max-width: 2000px) {
+	
+	.facebooklikemobile{
+	position:absolute;
+	top:18px;
+	left:190px;
+	overflow:hidden;
+	
+}
+	
 	#hometitle {
 	position:relative;
 	top: 0px;
