@@ -586,10 +586,10 @@
 
 
 .facebooklikemobile{
-	position:relative;
+	position:absolute;
 	float:left;
-	top:-25px;
-	left:40px;
+	top:5px;
+	left:140px;
 	overflow:hidden;
 	z-index:-1;
 	
