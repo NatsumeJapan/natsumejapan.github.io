@@ -313,8 +313,8 @@
 
 .facebooklikemobile{
 	position:relative;
-	top:-25px;
-	left:70px;
+	top:-15px;
+	left:80px;
 	overflow:hidden;
 		z-index:-1;
 
@@ -589,10 +589,10 @@
 	position:relative;
 	float:left;
 	top:-25px;
-	left:60px;
+	left:40px;
 	overflow:hidden;
-		z-index:-1;
-
+	z-index:-1;
+	
 }
 
 
@@ -885,8 +885,8 @@
 	top:-45px;
 	left:140px;
 	overflow:hidden;
-		z-index:-1;
-
+	z-index:-1;
+	
 }
 
 
@@ -958,8 +958,8 @@
 	top:-45px;
 	left:140px;
 	overflow:hidden;
-		z-index:-1;
-
+	z-index:-1;
+	
 }
 
 
