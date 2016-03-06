@@ -566,6 +566,7 @@ nav#menu {
 	margin-right: 20px;
 }
 
+
 nav#menu #menu-nav {
 	margin: 0;
 	padding: 0;	
@@ -631,6 +632,7 @@ nav#menu #menu-nav li a:hover {
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
 		    transition: transform 250ms ease-out 0s;
+
 }
 
 .menu-nav.open {
@@ -645,7 +647,10 @@ nav#menu #menu-nav li a:hover {
 	-webkit-transition: -webkit-transform 250ms ease-out 0s;	
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
-		    transition: transform 250ms ease-out 0s;	
+		    transition: transform 250ms ease-out 0s;
+			z-index:99999;
+			
+			
 }
 
 #navigation-mobile {
@@ -656,7 +661,7 @@ nav#menu #menu-nav li a:hover {
 	border-bottom: 1px solid #2F3238;
 	position: relative;
 	float: left;
-	z-index: 9999;
+	z-index: 9999999;
 }
 
 #navigation-mobile li {

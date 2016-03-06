@@ -1016,6 +1016,7 @@
 	top:-45px;
 	left:140px;
 	overflow:hidden;
+	z-index:-1;
 	
 }
 
