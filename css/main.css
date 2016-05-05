@@ -20,7 +20,7 @@ body{
 	color:#7F8289;
 	font-weight:300;
 	font-size:16px;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Rockwell,'Kameron',serif;
 	line-height:28px;
 }
 
@@ -279,231 +279,15 @@ h3.spec {
 	margin-bottom:80px !important;
 }
 
-/* ==================================================
-   Home Slider
-================================================== */
-
-#home-slider {
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-}
-
-#home-slider .overlay { 
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #F2F2F2;
-	opacity: 0.75;
-	filter: alpha(opacity=75);
-	z-index: 0;
-}
-#hometitle {
-	position:relative;
-	top: 0px;
-	left:0px;
-	color:black;
-	margin: 0px 0px 0px 0px;
-	height: 50px;
-	z-index: 6;
-	background: white;
-	padding-top:20px;
-	margin-bottom:20px;
-	  -webkit-box-shadow: 0 4px 5px #888888;
-  -moz-box-shadow: 0 4px 5px #888888;
-  box-shadow: 0 4px 5px #888888;
-}
-#hometitle .slide-content {
-	font-size: 50px;
-	color: black;
-	letter-spacing: 5px;
-	text-transform: uppercase;	
-}
-
-.facebooklike {
-	position:relative;
-	top:-60px;
-	left:550px;
-	width:300px;
-	overflow:hidden;
-}
-.facebooklikecontact {
-	position:relative;
-	top:-20px;
-	left:70px;
-	width:60%;
-	overflow:hidden
-}
-.contactul{
-	position:relative;
-	top:-60px;
-}
-
-.homeholder{
-	position:absolute;
-	left:0%;
-	width:50%;
-	height:70%;
-	margin:0% 0% -10% 15%;
-}
 
 
-#homeleftimage {
-	width:auto;
-	max-width:600px;
-	height:100%;
-	max-height:600px;
-	
-}
 
 
-#home-slider #slidecaption {
-	width: 100%;
-	line-height: 250px;
-	margin: 0;
-	text-align: center;
-	text-shadow: none;	
-}
 
-#home-slider .slide-content {
-	font-size: 60px;
-	color: black;
-	letter-spacing: -3px;
-	text-transform: uppercase;	
-}
 
-#home-slider .control-nav {
-	position: absolute;
-	width: 100%;
-	background: ;
-	height: 50px;
-	bottom: 0;
-	z-index: 2;
-}
 
-#home-slider #nextslide,
-#home-slider #prevslide {
-	background-image: none;
-	background-color: ;
-	display: inline-block;
-	margin: 0;
-	position: relative;
-	top: 0;
-	left: 0;
-	right: 0;
-	width: 50px;
-	height: 50px;
-	opacity: 1;
-	filter: alpha(opacity=100);
-	
-	-webkit-transition: background 0.1s linear 0s;	
-	   -moz-transition: background 0.1s linear 0s;
-		 -o-transition: background 0.1s linear 0s;
-		    transition: background 0.1s linear 0s;
-}
 
-#home-slider #nextslide {
-	margin-left: -3px;	
-}
 
-#home-slider #nextsection {
-	float:right;
-}
-
-#home-slider #nextslide:hover,
-#home-slider #prevslide:hover {
-	background-color:#DE5E60;
-}
-
-#home-slider #nextslide i,
-#home-slider #prevslide i {
-	font-size: 16px;
-	color: black;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -7px;
-	line-height: 1em;
-}
-
-#home-slider #nextslide i {
-	margin-left: -8px;	
-}
-
-#home-slider #prevslide i {
-	margin-left: -9px;	
-}
-
-#home-slider ul#slide-list {
-	top: 50%;
-	padding: 0;
-	margin:-6px 0 0 0;	
-}
-
-#home-slider ul#slide-list li {
-	margin-right: 12px;
-}
-
-#home-slider ul#slide-list li:last-child {
-	margin-right: 0;	
-}
-
-#home-slider ul#slide-list li a {
-	background-color: #6E7074;
-	background-image: none;
-	width: 12px;
-	height: 12px;
-	
-	-webkit-border-radius: 999px;
-	-moz-border-radius: 999px;
-	border-radius: 999px;	
-	
-	-webkit-transition: background 0.1s linear 0s;	
-	   -moz-transition: background 0.1s linear 0s;
-		 -o-transition: background 0.1s linear 0s;
-		    transition: background 0.1s linear 0s;
-}
-
-#home-slider ul#slide-list li a:hover {
-	background-color: #FFFFFF;	
-}
-
-#home-slider ul#slide-list li.current-slide a,
-#home-slider ul#slide-list li.current-slide a:hover {
-	background-color:#DE5E60;
-}
-
-#home-slider #nextsection {
-	background-color: ;
-	margin: 0;
-	position: relative;
-	float:right;
-	width: 50px;
-	height: 50px;
-	
-	-webkit-transition: background 0.1s linear 0s;	
-	   -moz-transition: background 0.1s linear 0s;
-		 -o-transition: background 0.1s linear 0s;
-		    transition: background 0.1s linear 0s;
-}
-
-#home-slider #nextsection:hover {
-	background-color:#DE5E60;
-}
-
-#home-slider #nextsection i {
-	font-size: 16px;
-	color: black;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -7px;
-	line-height: 1em;
-}
-
-#home-slider #nextsection i {
-	margin-left: -7px;	
-}
 
 
 /* ==================================================
@@ -516,7 +300,7 @@ header {
 }
 
 header .sticky-nav {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	height: 60px;
 	background: white;
@@ -690,7 +474,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .page-alternate {
-	background: #F8F8F8;
+	background: white;
 	padding: 0px 0;
 	position: relative;
 	z-index: 99;
@@ -723,6 +507,89 @@ nav#menu #menu-nav li a:hover {
 	margin-left:20%;
 	margin-right:20%;
 }
+
+
+
+/* ==================================================
+   HOME
+================================================== */
+
+
+#homeimage{
+  float: left;
+  width: 50%;
+  max-width:600px;
+  max-height:600px;
+  padding-left:0%;
+  padding-right:5%;
+
+}
+
+.homeimageshell{
+	margin-top:10px;
+	margin-bottom:40px;
+	
+}
+
+.homesubscriberight{
+  float: left;
+  width: 400px;
+      box-sizing: border-box;
+    color: black;
+    letter-spacing: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 251, 0);
+    font: normal normal bold normal 50px / 47px Raleway, sans-serif;
+    outline: rgb(255, 251, 0) none 0px;
+
+
+}
+
+
+.homebutton {
+    box-sizing: border-box;
+    color: rgb(116, 116, 116);
+    height: 60px;
+    text-align: right;
+    width: 670px;
+    perspective-origin: 335px 30px;
+    transform-origin: 335px 30px;
+    border: 0px none rgb(116, 116, 116);
+    font: normal normal normal normal 16px / 19.2px Raleway, sans-serif;
+    outline: rgb(116, 116, 116) none 0px;
+}
+
+#homebutton2 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 60px;
+    letter-spacing: 1px;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 200px;
+    perspective-origin: 100px 30px;
+    transform-origin: 100px 30px;
+    background: blue none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 4px solid lightblue;
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal 500 normal 16px / 30px Raleway, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 20px;
+    transition: all 0.15s ease-in-out 0s;
+}
+#homebutton2:hover {
+    background: black;
+}
+
+
 
 /* ==================================================
    Section Portfolio
@@ -1169,6 +1036,16 @@ nav#menu #menu-nav li a:hover {
 #response {
 	margin-top: 20px;
 	color: #FFFFFF;
+}
+
+
+.contactrow {
+	padding-left:40px;
+}
+
+#socialcontact {
+	float:right;
+	width:400px;
 }
 
 

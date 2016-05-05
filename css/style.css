@@ -1,0 +1,53 @@
+
+/* -------------------------------------------- */
+/* ------------------Reset--------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+input, textarea, select {margin:0; padding:0px;}
+
+
+
+h2, .title{color:white; font-family: Rockwell,'Kameron',serif;}
+p {color:white;
+}
+
+.sticky-nav{
+	
+}
+
+
+
+.block05 {padding: 90px 0;}
+.block05 .title{width: 90%; margin: auto; text-align: center;}
+.block05 .title span{ background: black; padding: 10px; font-size: 20px; text-transform: uppercase;}
+.block05 article{ clear: both; margin-bottom:30px; padding: 0 10px;}
+
+/* ------------------Footer-------------------- */
+
+
+/*Pagination*/
+#pagi{margin: 50px auto; padding: 20px 0px;list-style: none;width: 250px;}
+#pagi li {float: left;margin-right: 10px;}
+#pagi li a {display: block;	text-decoration: none; color: #717171;font: bold 16px Arial, sans-serif;padding: 5px; background: #ffffff;}
+#pagi li a.current, #pagi li a:hover {color: #ffffff;	background: #009EE2;}
+
+/*Comment*/
+.comment{font-weight:bold; margin:10px 0px; width: auto; color:black;}
+.comment div{margin-bottom: 20px; vertical-align:middle; }
+.comment input{border: 2px solid #999999;padding: 8px 10px;width:250px;}
+.comment textarea{border: 2px solid #999999;padding: 8px 10px;width:95%;}
+.comment input[type="submit"] {cursor: pointer; width:100px; float:right;
+	background: -webkit-linear-gradient(top, #efefef, #ddd);background: -moz-linear-gradient(top, #efefef, #ddd);
+	background: -ms-linear-gradient(top, #efefef, #ddd);background: -o-linear-gradient(top, #efefef, #ddd);
+	background: linear-gradient(top, #efefef, #ddd);
+	color: #333;text-shadow: 0px 1px 1px rgba(255,255,255,1);	border: 2px solid #999999;}
+.comment input[type="submit"]:hover {
+	background: -webkit-linear-gradient(top, #eee, #ccc);	background: -moz-linear-gradient(top, #eee, #ccc);
+	background: -ms-linear-gradient(top, #eee, #ccc);	background: -o-linear-gradient(top, #eee, #ccc);
+	background: linear-gradient(top, #eee, #ccc);	border: 2px solid #bbb;}
+.comment input[type="submit"]:active {
+	background: -webkit-linear-gradient(top, #ddd, #aaa);	background: -moz-linear-gradient(top, #ddd, #aaa);
+	background: -ms-linear-gradient(top, #ddd, #aaa);	background: -o-linear-gradient(top, #ddd, #aaa);
+	background: linear-gradient(top, #ddd, #aaa);	border: 2px solid #999;}
