@@ -81,70 +81,16 @@
 
 <body>
 
-<!-- This section is for Splash Screen -->
-<div class="ole">
-<section id="jSplash">
-	<div id="circle"></div>
-</section>
-</div>
-<!-- End of Splash Screen -->
-
-<!-- Homepage Slider -->
-<div id="home-slider">	
-    <div class="overlay">
-    
-    </div>
-    
-   <center> 
-   
-    <div id="hometitle"><p class="slide-content">Monthly Japanese Snacks!</p>
-    
-    <div class="facebooklike">
-    <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"src="//www.facebook.com/plugins/like.php?locale=en_US&href=https://www.facebook.com/JapanCandyMonthly/?ref=aymt_homepage_panel&layout=standard&action=like&show_faces=false&share=true&"><div><small><a href="http://gefalltmirbutton.org">
-									
-							</a></small></div><div><small><a href="http://kostenlosesgirokontovergleich.de/">girokontovergleich</a></small></div></iframe>
-                            </div>
-    </div>
-    
-    <div class="homeholder">
-    
-    
-    
-    
- <img id="homeleftimage" src="img/homeleft2.png" alt=""/>
- 
- <span id="padtest">
- 
-<h2><font color="#000000">Subscribe now!</font></h2><p><font style="color:black;font-size:16px"><span class="iphonehometext">Order by the 10th each month and get the next month`s shipment!</span></font></p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div id="subscribenowhome">
-
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="H285DDBGGLSEQ">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier             way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
-
-
-
-
-
-</div>
-</span>
-</div>
- 
- </center>
-    
-  	<div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        
-    </div>  
-	
-</div>
-<!-- End Homepage Slider -->
 
 <!-- Header -->
 <header>
@@ -157,26 +103,81 @@
         
         
         <div class="facebooklikemobile">
-    <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"src="//www.facebook.com/plugins/like.php?locale=en_US&href=https://www.facebook.com/JapanCandyMonthly/?ref=aymt_homepage_panel&layout=button_count&action=like&show_faces=false&share=true&"><div><small><a href="http://gefalltmirbutton.org">
+   <div class="fb-follow" data-href="https://www.facebook.com/JapanCandyMonthly/" data-layout="standard" data-show-faces="false"></div>
 									
-							</a></small></div><div><small><a href="http://kostenlosesgirokontovergleich.de/">girokontovergleich</a></small></div></iframe>
+							
                             </div>
         
         
         
         <nav id="menu">
         	<ul id="menu-nav">
-            	<li class="current"><a href="#home-slider">Home</a></li>
+            	<li class="current"><a href="#home">Home</a></li>
                 <li><a href="#process">Process</a></li>
                 <li><a href="#about">Choose <span class="hidden-tablet">your</span> set</a></li>
                 <li><a href="#whychoose">Why <span class="hidden-tablet">choose</span> us</a></li>
-                <li><a href="#contact">Contact us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
         
     </div>
 </header>
 <!-- End Header -->
+<div id="home" class="page">
+
+<div class="container">
+<br>
+<br>
+<br>
+
+    <div class="homeimageshell">
+    <img id="homeimage" src="img/homeleft2.png">
+    
+    
+
+
+   
+<div class="homesubscriberight">
+<br>
+Subscribe by the 10th and receive the next month`s box!
+<br>
+
+
+<div id="homebutton">
+					
+				
+
+
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" type="button">
+      
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="BJMUL4A72TWYA">
+<input type="submit" value="Subscribe Now!" name="submit" title="PayPal - The safer, easier way to pay online!" id="homebutton2">
+
+
+</form>
+
+
+
+</div>
+
+
+
+
+</div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+
+
 
 <!-- Our Work Section -->
 <div id="process" class="page">
@@ -368,54 +369,7 @@
         
         
     </div>
- <div id="megapremium">
- 
-            <!-- Start Profile -->
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">
-                    
-                    
-                     <h2>$49.99</h2>40 <span class="hidden-tablet">randomely selected</span> dagashi snacks! <br> One random DIY kit guaranteed!<br>Japan only jelly drink! <br>Bonus accessory from Japan! 
-                     </span>
-                    
-                    
-                   
-                </div>
-                <img src="img/profile/profile-04.jpg" alt="Original">
-            </div>
-            <h3 class="profile-name">Mega Dagashi Box</h3>
-            <p class="profile-description">
-            
-            
-            Having a party? <span class="megadagashihidesmall">Want to show all your friends what Japanese snacks are like at a movie night or other club?</span> Love little Japanese snacks to eat throughout the month? This is the box you want! With 40 dagashi, a Kracie DIY kit, Japan only jelly drink and an amazing accessory, you can`t go wrong! Just subscribe below and get ready to immerse yourself in Japanese dagashi snacks!
-            
-            
-            
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="XJ7SDGQSPKD3W">
-<table>
-<tr><td><input type="hidden" name="on0" value="Shipping options">Shipping options</td></tr><tr><td><select name="os0">
-	<option value="Free Shipping!">Free Shipping! : $49.99 USD - monthly</option>
-	<option value="ePacket!">ePacket! : $56.99 USD - monthly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-            
-</p>
-            	
-           
-        </div>
-        </p>
-   
-        </div>
         <!-- End Profile -->
     
     <!-- End People -->
@@ -574,33 +528,18 @@
  
  
  
-     <div class="whythree">
-    
-        
-    <h3>4. Located just 20 min from Akihabara and Tokyo station.
-    
-    </h3>
-    <p> Being located a mere 20 minutes from Akihabara and Tokyo station, we are right in the center of it all. We have many sources from which to find great items, and accessories we find are all authentic items from Akihabara!
-    
-    
-    
-    
-    
- </div>
+     
  
  
     
     </div>
     
-    <!-- Contact Form -->
-    <div id="contact"class="row">
-    <center>
-    	<iframe src="https://docs.google.com/forms/d/16w3oDDOOva-Kk9wNiKmElb_JHdb11eQivZ23Dpe7Dzc/viewform?embedded=true" width="80%" height="750px" scrolling="no" frameborder="0" vspace="0" hspace="0" marginheight="" marginwidth="">Loading...</iframe>    
+    
 
         
         	<div class="contact-details">
             <center>
-        		<h3><font color="#000000">Contact Details</font></h3>
+        		<h3><font color="#000000">Follow our Community</font></h3>
                 <p>Like us on Facebook!     
                 
                 <div class="facebooklikecontact">
@@ -610,15 +549,6 @@
                             </div>
                             </p>
                           
-                <ul class="contactul">
-                    <li>Please use the contact form to send an email.</li>
-                    <li>(080) 4739-8112 (Japan)</li>
-                    <li>Ichikawa city, Chiba Prefecture
-                        <br>
-                        Japan
-                    </li>
-                </ul>
-                
             </div>
     </div>
     <!-- End Contact Form -->
@@ -630,7 +560,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2013 Japan Candy Monthly. </p>
+	<p class="credits">&copy;2016 Japan Candy Monthly. </p>
 </footer>
 <!-- End Footer -->
 
