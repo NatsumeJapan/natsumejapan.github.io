@@ -45,7 +45,7 @@
 		<h2>Your message has been sent!</h2><br />
         <br>
         <br>
-        
+        <br>
 		
 		<p><a href="contact.html">Back to Contact Form</a></p>
         
