@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 
 <head>
-	<title>Contact Thank You | Really Cool Customs</title>
-	<meta name="description" content="Mina Test Site Contact Thank You">
+	<title>Japan Candy Monthly Contact Thank You</title>
+	<meta name="description" content="Japan Candy Monthly Contact Thank You">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/contactstyle.css" />
 </head>
